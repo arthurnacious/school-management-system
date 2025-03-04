@@ -1,3 +1,4 @@
+"use client"
 import { FC, useState } from "react";
 import { Button } from "@/components/ui/button";
 import FlexDialog from "@/components/ui/flex-dialog";
