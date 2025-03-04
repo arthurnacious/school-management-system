@@ -1,3 +1,4 @@
+"use client"
 import { api_url } from "@/lib/config";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
