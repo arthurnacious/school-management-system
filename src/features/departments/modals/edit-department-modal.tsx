@@ -1,3 +1,4 @@
+"use client"
 import { FC } from "react";
 import FlexDialog from "@/components/ui/flex-dialog";
 import EditDepartmentForm from "../forms/edit-department-form";
