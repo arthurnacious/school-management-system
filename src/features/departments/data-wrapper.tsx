@@ -35,7 +35,7 @@ const DataWrapper: FC<Props> = ({}) => {
 
       {isLoading && <p>Loading...</p>}
       {isError && <p>An error occurred.</p>}
-      {departments.length > 0 && (
+      {departments && departments.length > 0 && (
         <DataTable
           columns={columns({
             onEditClick: setEditDepartmentSlug,
